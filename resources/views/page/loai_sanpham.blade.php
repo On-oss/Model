@@ -17,19 +17,12 @@
 	<link rel="stylesheet" href="{{ asset('source/assets/dest/css/animate.css') }}">
 	<link rel="stylesheet" title="style" href="{{ asset('source/assets/dest/css/huong-style.css') }}">
     <link rel="stylesheet" href="{{ asset('source/assets/dest/css/style.css') }}">      
-    <link rel="shortcut icon" href="{{ asset('eshopper/images/ico/favicon.ico') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('eshopper/images/ico/apple-touch-icon-144-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('eshopper/images/ico/apple-touch-icon-114-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('eshopper/images/ico/apple-touch-icon-72-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('eshopper/images/ico/apple-touch-icon-57-precomposed.png') }}">
-    <link rel="stylesheet" href="{{ asset('source/assets/dest/css/style.css') }}">
-
 
 </head>
 
 @extends('layouts.master')																		
 @section('content')																		
-<div class="inner-header">																		
+<!-- <div class="inner-header">																		
 <div class="container">																		
 <div class="pull-left">																		
 <h6 class="inner-title">Sản phẩm</h6>																		
@@ -38,7 +31,7 @@
 <div class="beta-breadcrumb font-large">																		
 <a href="index.html">Home</a> / <span>Sản phẩm</span>																		
 </div>																		
-</div>																		
+</div>																		 -->
 <div class="clearfix"></div>																		
 </div>																		
 </div>																		
