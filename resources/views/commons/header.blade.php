@@ -26,13 +26,16 @@
                 <a href="trangchu" id="logo"><img src="source/assets/dest/images/logo-cake.png" width="200px" alt=""></a>
             </div>
             <div class="pull-right beta-components space-left ov">
-                <div class="space10">&nbsp;</div>
-                <div class="beta-comp">
-                    <form role="search" method="get" id="searchform" action="/">
-                        <input type="text" value="" name="s" id="s" placeholder="Nhập từ khóa..." />
-                        <button class="fa fa-search" type="submit" id="searchsubmit"></button>
-                    </form>
-                </div>
+    <div class="space10">&nbsp;</div>
+    <div class="beta-comp">
+    <form role="search" method="GET" id="searchform" action="{{ route('search') }}">
+    <input type="text" value="" name="q" id="q" placeholder="Nhập từ khóa..." />
+    <button class="fa fa-search" type="submit" id="searchsubmit"></button>
+</form>
+
+    </div>
+</div>
+
                 <!-- CART -->
                 <div class="beta-comp">
                     @if(Session::has('cart'))

@@ -22,16 +22,16 @@
 
 @extends('layouts.master')																		
 @section('content')																		
-<!-- <div class="inner-header">																		
+<div class="inner-header">																		
 <div class="container">																		
 <div class="pull-left">																		
 <h6 class="inner-title">Sản phẩm</h6>																		
 </div>																		
 <div class="pull-right">																		
 <div class="beta-breadcrumb font-large">																		
-<a href="index.html">Home</a> / <span>Sản phẩm</span>																		
+<a href="/trangchu">Home</a> / <span>Sản phẩm</span>																		
 </div>																		
-</div>																		 -->
+</div>																		
 <div class="clearfix"></div>																		
 </div>																		
 </div>																		
@@ -85,7 +85,7 @@
 <a class="add-to-cart pull-left" href="{{route('themgiohang',$sp->id)}}"><i																		
 class="fa fa-shopping-cart"></i></a>																		
 <a class="add-to-cart pull-left" href="#"><i class="fa fa-heart"></i></a>																		
-<a class="beta-btn primary" href="/type/{{$sp->id}}">Details <i class="fa fa-chevron-right"></i></a>																		
+<a class="beta-btn primary" href="{{ route('detail', $sp->id) }}">Details <i class="fa fa-chevron-right"></i></a>																	
 <div class="clearfix"></div>																		
 </div>																		
 </div>																		

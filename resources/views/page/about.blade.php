@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="{{ asset('source/assets/dest/css/animate.css') }}">
 	<link rel="stylesheet" title="style" href="{{ asset('source/assets/dest/css/huong-style.css') }}">
     <link rel="stylesheet" href="{{ asset('source/assets/dest/css/style.css') }}">      
-
 </head>
 @extends('layouts.master')
 @section('content')
@@ -28,7 +27,7 @@
         </div>
         <div class="pull-right">
             <div class="beta-breadcrumb font-large">
-                <a href="index.html">Home</a> / <span>Giới thiệu</span>
+                <a href="/trangchu">Home</a> / <span>Giới thiệu</span>
             </div>
         </div>
         <div class="clearfix"></div>

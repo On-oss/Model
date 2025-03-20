@@ -42,7 +42,7 @@ Route::get('/themgiohang/{id}', [CartController::class, 'addToCart'])->name('the
 
 Route::get('/type/{id}', [PageController::class, 'getLoaiSp']);	
 
-Route::get('/detail/{id}', [PageController::class, 'getDetail']);
+Route::get('/detail/{id}', [PageController::class, 'getDetail'])->name('detail');
 
 Route::get('/contact', [PageController::class, 'getContact']);
 Route::get('/about', [PageController::class, 'getAbout']);
@@ -63,6 +63,14 @@ Route::delete('/admin-delete/{id}', [PageController::class, 'postAdminDelete'])-
 
 
 Route::get('/export', [PageController::class, 'exportAdminProduct'])->name('export');
+
+
+Route::get('/search', [PageController::class, 'postSearch'])->name('search');
+
+
+
+
+
 
 
 

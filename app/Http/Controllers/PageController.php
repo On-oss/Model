@@ -149,8 +149,10 @@ public function exportAdminProduct() {
 }
 
 
-
-
+public function postSearch(Request $request){
+    $products = Product::where('name', 'LIKE', '%'.$request->search.'%')->paginate(6);
+    return view('page.search', compact('products'));
+}
 
 
 
